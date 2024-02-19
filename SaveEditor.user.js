@@ -6,6 +6,7 @@
 // @version     1.0
 // @author      DMRD
 // @description Adds a simple save file editor directly into the game
+// @icon			https://i.imgur.com/WlkWOkU.png
 // @run-at      document-idle
 // ==/UserScript==
 
