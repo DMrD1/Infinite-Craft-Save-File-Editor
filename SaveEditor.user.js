@@ -92,6 +92,8 @@ function addStyles(css) {
     document.getElementsByTagName('head')[0].appendChild(styleElement);
 }
 
+
+setTimeout(function() {
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap';
@@ -136,3 +138,4 @@ saveBtn.addEventListener('click', function() {
     }
 });
 addStyles(css);
+}, 100);
